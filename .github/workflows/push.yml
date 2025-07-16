@@ -40,7 +40,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: kodermax/kubectl-aws-eks
+          images: patrickdk/kubectl-aws-eks
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
